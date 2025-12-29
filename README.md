@@ -100,36 +100,36 @@ An intelligent agent that:
                    │
                    ▼
 ┌─────────────────────────────────────────────────────┐
-│              LangChain Agent                         │
+│              LangChain Agent                        │
 │           (LLaMA 3.1 via Groq)                      │
-│                                                      │
-│  ┌──────────────────────────────────────────────┐  │
-│  │  Reasoning Engine (Temperature: 0.3)         │  │
-│  │  - Analyzes user query                       │  │
-│  │  - Plans tool execution sequence             │  │
-│  │  - Synthesizes results                       │  │
-│  └──────────────────────────────────────────────┘  │
+│                                                     │
+│  ┌──────────────────────────────────────────────┐   │
+│  │  Reasoning Engine (Temperature: 0.3)         │   │
+│  │  - Analyzes user query                       │   │
+│  │  - Plans the tool execution sequence         │   │
+│  │  - Synthesizes results                       │   │
+│  └──────────────────────────────────────────────┘   │
 └──────────────────┬──────────────────────────────────┘
                    │
                    ▼
 ┌─────────────────────────────────────────────────────┐
-│                  Tool Suite                          │
-│                                                      │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐         │
-│  │ Flight   │  │  Hotel   │  │ Places   │         │
-│  │ Search   │  │  Finder  │  │Discovery │         │
-│  └──────────┘  └──────────┘  └──────────┘         │
-│                                                      │
-│  ┌──────────┐  ┌──────────┐                        │
-│  │ Weather  │  │  Budget  │                        │
-│  │ Forecast │  │Estimator │                        │
-│  └──────────┘  └──────────┘                        │
+│                  Tool Suite                         │
+│                                                     │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐           │
+│  │ Flight   │  │  Hotel   │  │ Places   │           │
+│  │ Search   │  │  Finder  │  │Discovery │           │
+│  └──────────┘  └──────────┘  └──────────┘           │
+│                                                     │
+│  ┌──────────┐  ┌──────────┐                         │
+│  │ Weather  │  │  Budget  │                         │
+│  │ Forecast │  │Estimator │                         │
+│  └──────────┘  └──────────┘                         │
 └──────────────────┬──────────────────────────────────┘
                    │
                    ▼
 ┌─────────────────────────────────────────────────────┐
-│               Data Sources                           │
-│                                                      │
+│               Data Sources                          │
+│                                                     │
 │  • JSON Files (flights, hotels, places)             │
 │  • Open-Meteo Weather API                           │
 │  • Shared State Management                          │
@@ -579,8 +579,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Built By
 
 **Akshay Som**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
+- GitHub: [akshaysom21](https://github.com/akshaysom21)
+- LinkedIn: [Akshay Som](https://www.linkedin.com/in/akshaysom21/)
 
 ---
 
@@ -588,9 +588,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter issues or have questions:
 
-1. Check the [Issues](https://github.com/yourusername/ai-travel-agent/issues) page
-2. Open a new issue with detailed description
-3. Reach out via [email](mailto:your.email@example.com)
+1. Check the [Issues](https://github.com/akshaysom21/ai-travel-agent/issues) page
+2. Open a new issue with a detailed description
+3. Reach out via [email](mailto:akshaysom21@gmail.com)
 
 ---
 
