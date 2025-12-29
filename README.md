@@ -56,13 +56,13 @@ An intelligent agent that:
 ### Core Capabilities
 
 - **🛫 Intelligent Flight Search**
-  - Finds cheapest available flights
+  - Finds the cheapest available flights
   - Suggests alternative transportation (train/bus) if flights unavailable
   - Handles departure times and pricing dynamically
 
 - **🏨 Smart Hotel Recommendations**
   - Filters by city, price range, and star rating
-  - Selects best value based on ratings and amenities
+  - Selects the best value based on ratings and amenities
   - Considers budget constraints
 
 - **🗺️ Attraction Discovery**
@@ -82,7 +82,7 @@ An intelligent agent that:
 
 ### Technical Highlights
 
-- **Agentic AI Architecture**: Uses LangChain's ReAct pattern for reasoning and action
+- **Agentic AI Architecture**: Uses LangChain's OpenAI Tool calling agent for direct, structured function calls
 - **Multi-Tool Orchestration**: Coordinates 5 specialized tools seamlessly
 - **State Management**: Shares data between tools for holistic planning
 - **Error Handling**: Graceful fallbacks for API failures
